@@ -1,0 +1,21 @@
+
+NSG (NETWORK SECURITY GROUP) 
+========================
+
+1.CREATE RESOURCE GROUP
+2.LAUNCH/CREATE LINUX VM
+3.Connect  vm
+-> shift normal user to super user === sudo -i
+4. refresh/update the terminal
+-> apt-get update
+5.install sample webpage
+ -> apt-get install apache2 -y
+6.copy public ip of vm paste into chrome
+7.Enable http port no in nsg
+8.custamize sample website
+root directory = /var/www/html
+<h1> Hi this is html webpage</h1>
+<h2> server-01</h2>
+<h3> server-02 </h3>
+
+save -> esc :wq
